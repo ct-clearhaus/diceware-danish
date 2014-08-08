@@ -108,6 +108,12 @@ number to remember; better than 12.9 (which every word of the original diceware
 word list contributes).
 
 
+    Why didn't you sign the word list?
+
+Because you would like to check its conditions anyway. So go get the word list
+and ensure that ``awk '{print $2}' | sort | uniq | wc -l`` gives you 1296.
+
+
 Credits
 -------
 
