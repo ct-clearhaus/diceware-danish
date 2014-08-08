@@ -23,7 +23,7 @@ How to use it?
 2. Decide how strong the passphrase needs to be. For every word you add, you add
    just over 10.3 bits to the passphrase strength. So if you need 80 bit
    passphrase strength, you need a passphrase of 8 words.
-3. Roll the dice 4 times and look-up the number sequence in
+3. Roll the dice 4 times and look up the number sequence in
    ``diceware.wordlist-danish.txt``. This word is the first word in your
    passphrase.
 4. Repeat until you have collected enough words for your desired passphrase
@@ -80,7 +80,7 @@ Some questions I asked myself
    use the word list.
 
 If I were an attacker, I would only spend some time on each strategy
-(brute-forcing, dictionary attach from different word lists etc.). Thus, an
+(brute-forcing, dictionary attack from different word lists etc.). Thus, an
 attacker will succeed in using the correct word list way before he would succeed
 in brute-forcing, so protecting for the attackers worst-case scenario does not
 increase the security. Rather, it makes the passphrase harder to type,
@@ -103,7 +103,7 @@ I am lazy. I didn't bother to find more words. Looking through the word list to
 remove offensive words, remove non-Danish names etc. actually took me more than
 an hour. By having a list six times longer would require me to spend six times
 as much time on sanitising the list. Sorry, add a word more to your passphrase.
-Also, you can count on each word to contribute ~10 bits to your strength. Nice
+Also, you can count on each word to contribute >10 bits to your strength. Nice
 number to remember; better than 12.9 (which every word of the original diceware
 word list contributes).
 
